@@ -1,0 +1,42 @@
+/* https://colorhunt.co/palette/0078aa3ab4f2f2df3af6f6f6
+
+#0078AA
+#3AB4F2
+#F2DF3A
+#F6F6F6
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Kanit:ital,wght@1,900&family=Raleway:wght@900&family=Rubik:ital,wght@1,700&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/menu.css");
+@import url("components/footer.css");
+@import url("components/cards.css");
+
+
+
+body{
+	font-family:'IBM Plex Sans', sans-serif;
+	font-size:18px;
+	background-color:#F6F6F6;
+	padding-bottom:200px;
+}
+
+h1, h2, h3{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size:30px;
+	font-weight:bolder;
+	font-color:#0078AA;
+}
+
+a{
+	text-decoration:none;
+}
+
+strong{
+	color:#3AB4F2;
+	font-weight:bold;
+}

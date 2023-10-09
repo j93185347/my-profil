@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Kanit:ital,wght@1,900&family=Rubik:ital,wght@1,700&display=swap');
+
+
+.banner {
+  background-image: url(../../images/background.jpg);   
+	background-size: cover;     
+  background-position: center;
+  translate:0px -10px;
+
+}
+
+.banner h1{
+  font-family: 'Raleway', sans-serif;
+  font-size:70px;
+  font-weight:bolder;
+  text-align:center;
+  padding-top:50px;
+  color:#F6F6F6;
+  margin-bottom:none;
+}
+
+.banner h2{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color:#F6F6F6;
+  text-align:center;
+  font-size:100%;
+  margin-top:2px;
+  transform:translateY(-50px);
+}
+
+.banner a{
+  text-align: center;
+  margin:auto;
+}
+
+.logo{
+  width:200px;
+  height:200px;
+  translate:-300px -300px;
+}
